@@ -1,3 +1,18 @@
-<p>
-  app-data works!
-</p>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="header">Name</th>
+        <th class="header">Category</th>
+        <th class="header">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let record of appData">
+        <td>{{record.name}}</td>
+        <td>{{record.category}}</td>
+        <td>{{record.amount}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
