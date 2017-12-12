@@ -6,11 +6,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { AppDataComponent } from './app-data/app-data.component';
 import { appRoutes } from './app.routes';
+import { AppRestructuredDataComponent } from './app-restructured-data/app-restructured-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppDataComponent
+    AppDataComponent,
+    AppRestructuredDataComponent
   ],
   imports: [
     BrowserModule,

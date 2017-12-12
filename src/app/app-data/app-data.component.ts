@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AppDataService } from './app-data.service';
+import { AppDataService } from '../shared/services/app-data.service';
 import { IAppData } from '../shared/models/IAppData';
 
 @Component({

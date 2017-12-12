@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="header" (click)="sort('name')">Name</th>
+        <th class="header" (click)="sort('C1')">C1</th>
+        <th class="header" (click)="sort('C2')">C2</th>
+        <th class="header" (click)="sort('C3')">C3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let record of restructuredData">
+        <td>{{record.name}}</td>
+        <td>{{record.C1}}</td>
+        <td>{{record.C2}}</td>
+        <td>{{record.C3}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
